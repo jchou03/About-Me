@@ -36,20 +36,20 @@ li{
 }
 .column {
     float: left;
-    padding: 10px;
+    padding: 0px;
 }
 
 /* Left and right column */
 .column.side {
     width: 25%;
-	background-color: green;
+
 	margin-right:0px;
 }
 
 /* Middle column */
 .column.middle {
-    width: 45.8%;
-	background-color: blue;
+    width: 75%;
+
 }
 .row:after {
     content: "";
@@ -61,4 +61,7 @@ li{
     .column.side, .column.middle {
         width: 100%;
     }
+}
+.mediaSection{
+	padding-left: 10px;
 }
