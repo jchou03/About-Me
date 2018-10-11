@@ -1,6 +1,7 @@
 ﻿body {
 	margin:0;
 	background-color:#FFFAEC;
+	/*background-color:black;*/
 	font-family:Helvetica;
 }
 li a:hover:not(.currentPage){
